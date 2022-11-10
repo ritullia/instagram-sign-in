@@ -1,0 +1,204 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.container {
+    /* background-color: #6f7074; */
+    display: inline-block;
+    width: 400px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 460px;
+    
+}
+
+.form {
+    display: inline-block;
+    border: 0.5px solid #CCCCCC; 
+    /* width: 320px; */
+    /* border-radius: 10px; */
+    width: 400px;
+    padding: 20px;
+}
+
+.logo {
+    display: inline-block;
+    width: 175px;
+    height: 75px;
+    margin-left: 25%;
+}
+
+.input-fields {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.fa-eye {
+    display: block;
+    top: 34%;
+    right: 12%;
+    cursor: pointer;
+    position: absolute;
+    color: #CCCCCC;
+}
+
+.btn {
+    display: block;
+    background-color: #77A7FF;
+    width: 320px;
+    height: 32px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.first-inputs {
+    display: block;
+    width: 320px;
+    height: 32px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 0.5px solid #CCCCCC;
+    font-size: 16px;
+    padding: 0 0 0 8px;
+}
+
+.orline {
+    display: block;
+    margin: 17px;
+    margin-right: 22px;
+    margin-top: 15px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    /* max-width: 400px; */
+}
+
+.orline::before {
+    display: block;
+    content: "";
+    width: 125px;
+    height: 1px;
+    background: #CCCCCC;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.orline::after {
+    display: block;
+    content: "";
+    width: 125px;
+    height: 1px;
+    background: #CCCCCC;
+    right: 0;
+    top: 50%;
+    color: #444950;
+    position: absolute;
+}
+
+.fcb-login {
+    /* background-color: #6f7074; */
+    padding: 24px 0 10px 0;
+    /* margin-top: 25px; */
+    margin-left: 20%;
+    display: inline-block;
+
+}
+
+.btn-log {
+    display: block;
+    padding: 0 10px 0 10px;
+    border: none;
+    background-color: transparent;
+    color: #385185;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 20px;
+
+}
+
+.fa-square-facebook {
+    display: inline-block;
+    margin-top: 2px;
+    font-size: 1rem;
+    height: 16px;
+    width: 16px;
+}
+
+.text-login {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: #444950;
+    font-size: 12px;
+    margin-left: 60px;
+    margin-top: 15px;
+
+}
+
+.row-clm {
+    /* background-color: #444950; */
+    margin-top: 15px;
+    display: inline-block;
+    border: 0.5px solid #CCCCCC; 
+    /* border-radius: 8px; */
+    width: 400px;
+    padding: 20px;
+}
+
+.text-msg {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.a-sign {
+    text-decoration: none;
+    color: #6a9dfd;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.row-clm-two {
+    display: inline-block;
+    margin-left: 15%;
+}
+
+.text-msg-last {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.app-logo {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.small-logo {
+    display: inline-block;
+    height: 40px;
+    margin-left: 3px;
+}
