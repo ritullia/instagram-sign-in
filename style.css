@@ -16,6 +16,7 @@ body * {
     top: 10%;
     left: 10%;
     height: 460px;
+    background-color: #ffffff;
     
 }
 
@@ -26,6 +27,7 @@ body * {
     /* border-radius: 10px; */
     width: 400px;
     padding: 20px;
+    background-color: #ffffff;
 }
 
 .logo {
@@ -195,10 +197,15 @@ body * {
 .app-logo {
     display: inline-block;
     margin-top: 25px;
+    
 }
 
 .small-logo {
     display: inline-block;
     height: 40px;
     margin-left: 3px;
+}
+
+a {
+    text-decoration: none;
 }
